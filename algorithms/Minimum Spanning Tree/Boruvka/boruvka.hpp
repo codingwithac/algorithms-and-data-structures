@@ -112,7 +112,7 @@ public:
                 int w = edge->getW()->getId();
 
                 // if they do not belong to the same MST subtree
-                if ((v != -1) && (uf->find(v) != uf->find(w)))
+                if ((v != -1) && (!uf->connected(v, w)))
                 {
                     // unify MST subtrees
                     uf->unify(v, w);
