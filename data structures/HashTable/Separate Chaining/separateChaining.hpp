@@ -1,7 +1,7 @@
 
 /**
  * The SeparateChaining class contains the logic to apply modular hashing using separate chaining for 
- * collision resolution. Separate chaining is a collision resolution is a strategy for handling the case
+ * collision resolution. Separate chaining is a collision resolution strategy for handling the case
  * when two or more keys to be inserted hash to the same array index. If that happens, they are stored in 
  * the same linked list.
  * Therefore, SeparateChaining has a vector 'hashTable' that stores a list of items of type 'Element'. 
